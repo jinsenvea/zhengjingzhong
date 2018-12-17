@@ -1,0 +1,84 @@
+
+
+  
+
+
+
+
+
+  .ewditBoxnow{
+    width: rem(750);
+    height: auto;
+    overflow: hidden;
+    ul{
+      width:9.2rem;
+      margin: 0 auto;
+       li{
+         height: rem(108);
+      line-height: rem(108);
+        border-bottom: 1px solid #e6e6e6;
+        position: relative;
+        span{
+            display: inline;
+        }
+       
+        .ewditBoxFont{
+          font-size: rem(28);
+          color: #2a2a2a;
+          display: inline-block;
+        
+          width: rem(125);
+          text-align: left;
+        
+        }
+        .btnGo{
+          position: absolute;
+        background: url('../../commom/img/btnGo.png') center center no-repeat;
+        width: rem(18);
+        height: rem(24);
+        right: 0;
+        top: 39%;
+        background-size: contain;
+
+        }
+       
+        .switch{
+          margin-top: rem(16);
+        }
+      }
+    }
+  }
+  .input{
+            display: inline;
+            height: rem(40);
+              font-size: rem(28);
+          //  margin-top:-0.1rem;
+           margin-left: rem(40);
+           width: rem(400);
+            color: #333;
+          }
+          .mint-switch-input:checked + .mint-switch-core{
+            background-color: #09b980 !important;
+
+          }
+
+
+ .proCityArea{
+   width: rem(750);
+   height: rem(450);
+    bottom: 0;
+  left: 0;
+ }
+  .proCityArea .picker{
+    float: left;
+    width: 33.3%;
+  }
+ //省市区 #09b980
+ .proCityAreaTitle{
+   width: rem(700);
+   height: rem(70);
+   margin: rem(30);
+  
+   color: #333;
+   font-size: rem(30);
+ }

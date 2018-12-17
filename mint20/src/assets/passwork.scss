@@ -1,0 +1,103 @@
+
+ .line{
+  border-left:1px solid #bfbfbf;
+   margin-left: rem(20);
+       
+  
+ }
+
+  .ewditBoxlock{
+    width: rem(750);
+    height: auto;
+    overflow: hidden;
+    ul{
+      margin: 0 auto;
+      width: rem(690);
+     
+    
+      li{
+         height: rem(108);
+      line-height: rem(108);
+        border-bottom: 1px solid #e6e6e6;
+        position: relative;
+        overflow: hidden;
+        
+        span{
+            display: inline;
+        }
+       
+        .ewditBoxFont{
+        
+          width: rem(40);
+            height: rem(40);
+          text-align: left;
+          img{
+          width:  rem(34);
+          height: rem(34);
+            vertical-align: sub;
+           
+          }
+        
+        }
+        .btnGo{
+          position: absolute;
+        background: url('../../commom/img/btnGo.png') center center no-repeat;
+        width: rem(18);
+        height: rem(24);
+        right:  rem(30);
+        top: rem(41);
+        background-size: contain;
+
+        }
+        .switch{
+          margin-top: rem(16);
+        }
+      }
+    }
+  }
+  .imgCode{
+   
+    img{
+ width: rem(140);
+    height: rem(45);
+    margin-top: rem((108-45)/2)
+    }
+  }
+  .inputpassWOr{
+            display: inline;
+            height: rem(32);
+              font-size: rem(30);
+           margin-top:-0.1rem;
+
+           margin-left: rem(20);
+            color: #333;
+            width: rem(380);
+          }
+          .mint-switch-input:checked + .mint-switch-core{
+            background-color: #09b980;
+
+          }
+
+
+ .codeNorm{
+      //  margin-right:.3rem; 
+       width: 2.2rem;
+    text-align: center;
+   }
+   .code {
+    color: #d3d3d3;
+    font-size:rem(30);
+    background: #fff;
+}
+
+.marginCode{
+  margin-top: 0.48rem;
+}
+// .refresh{
+//   img{
+//     margin-left: rem(15);
+//     width: rem(30);
+//   height: rem(30);
+//   margin-top: rem((108-40)/2);
+//   }
+// }
